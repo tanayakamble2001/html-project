@@ -1,0 +1,15 @@
+body{
+    background-color: #f7e8fa;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.about{
+    background-color: aqua;
+    width: 40%;
+    height: 390px;
+}
+p{
+    font-size: 18px;
+    font-family: 'Lugrasimo';
+}

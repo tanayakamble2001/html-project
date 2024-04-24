@@ -1,0 +1,28 @@
+div{
+    /*background-color: blanchedalmond;*/
+    width: 40%;
+    height: 390px;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 50px;
+}
+fieldset{
+    margin: auto;
+    width: 300px;
+    height: 350px;
+}
+textarea{
+    width: 180px;
+    height: 100px;
+}
+input{
+    width: 180px;
+    height: 18px;
+}
+button{
+    /*background-color: blueviolet;*/
+    /*border: none;*/
+    width: 180px;
+    height: 20px;
+    font-size: 14px;
+}
