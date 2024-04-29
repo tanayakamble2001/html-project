@@ -1,34 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     /*background-image: url('images/background.jpg');*/
-    background-color: #f7e8fa;
+    background-color:lightgray;
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
+    box-sizing: border-box;
 }
 ul{
     list-style-type: none;
     font-size: 18px;
     text-align: right;
     word-spacing: 20px;
-    padding-right: 30px;
-    padding-top: 10px;
+    /*padding-right: 30px;
+    padding-top: 10px;*/
 }
 a{
     text-decoration: none;
 }
 li{
     display: inline-block;
-    /*width: 100px;*/
 }
 nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
     position: sticky;
-    height: 50px;
+    height: 40px;
     background-color: #fcfcfc;
+    padding-bottom: 20px;
+    padding-top: 3px;
     
+}
+.logo{
+    font-family: 'Pacifico';
+    font-weight: 400;
+    font-size: 15px;
+    /*text-decoration: underline;*/
+    margin-left: -350px;
+}
+.logo>span{
+    color: #fe02fe;
 }
 .name{
     /*background-color: #7091E6;*/
-    color: #a3a3f0;
+    color: #fe02fe;
     height: 390px;
     width: 40%;
     text-align: center;
@@ -43,24 +63,32 @@ nav{
 .name>h2{
     font-family: 'Pacifico';
     font-size: 40px;
-   
+    padding-bottom: 30px;
 }
 .name>h3{
     font-family: 'Lugrasimo';
     font-size: 20px;
+    padding-bottom: 20px;
 }
 .name>a>img{
-    
+    background-color:#ffffff ;
     width: 32px;
     height: 32px;
+    margin: 1.5px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.name>a>img:hover{
+    background-color: #fe02fe;
 }
 .pic{
     
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     width: 40%;
-    height: 390px;
-    margin-top: 20px;
+    /*height: 390px;*/
+    margin-top: 5px;
     margin-left: 15%;
+    border-radius: 50%;
     display: inline-block;
     float: left;
     padding: auto;
@@ -68,7 +96,7 @@ nav{
 .pic>img{
 
     width: 100%;
-    height: 390px;
+    height: 500px;
 }
 @media only screen and (max-width:600px){
     .name
