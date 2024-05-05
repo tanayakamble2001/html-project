@@ -5,7 +5,7 @@
 }
 body{
     /*background-image: url('images/background.jpg');*/
-    background-color: #000000;
+    background-color: #024950;
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -31,7 +31,7 @@ nav{
     justify-content: space-evenly;
     position: sticky;
     height: 40px;
-    background-color: #fcfcfc;
+    background-color: #AFDDE5;
     padding-bottom: 20px;
     padding-top: 3px;
     
@@ -44,12 +44,12 @@ nav{
     margin-left: -350px;
 }
 .logo>span{
-    color: #fe02fe;
+    color: #964734;
 }
 .name{
     /*border: 2px solid;*/
     /*background-color: #7091E6;*/
-    color: #fe02fe;
+    color: #ffffff;
     height: 390px;
     width: 40%;
     text-align: center;

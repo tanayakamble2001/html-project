@@ -33,6 +33,17 @@ body{
     float: right;
     margin-right: 200px;
 }
+.contact1 >p >img{
+    text-align: justify;
+    /*background-color:#ffffff ;*/
+    width: 14px;
+    height: 18px;
+    margin-right: 15px;
+    border: #ffffff;
+    transition: 0.4s;
+    display: inline-block;
+    
+}
 /*fieldset{
     margin: auto;
     width: 100%;
