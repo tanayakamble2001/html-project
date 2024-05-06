@@ -21,9 +21,14 @@ ul{
 }
 a{
     text-decoration: none;
+    color: #024950;
+    font-family:  'Tahoma';
+    font-size: 16px;
+    font-weight: 800;
 }
 li{
     display: inline-block;
+    
 }
 nav{
     display: flex;
@@ -35,6 +40,13 @@ nav{
     padding-bottom: 20px;
     padding-top: 3px;
     
+}
+nav >ul >li >a:hover{
+    text-decoration-line: underline;
+    text-underline-position: auto;
+    text-decoration-color: white;
+    color:white ;
+    background-color: #024950;
 }
 .logo{
     font-family: 'Pacifico';
