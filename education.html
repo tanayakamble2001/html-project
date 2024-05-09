@@ -28,10 +28,10 @@
     </div>
     <div class="container">
         <div class="educate" id="ssc">
-            <h3 id="h3"></h3>
-            <!--<p>2017</p>
+            <h3>SSC</h3>
+            <p>2017</p>
             <p>Patwardhan High School, Ratnagiri.</p>
-            <p>70.80%</p>-->
+            <p>70.80%</p>
         </div>
         <div class="educate" id="hsc">
             <h3>HSC</h3>
@@ -46,27 +46,6 @@
             <p>71.76%</p>
         </div>
     </div>
-
-    <!--Java Script-->
-    <script>
-        ssc=["SSC","2017","Patwardhan High School, Ratnagiri.","70.80%"]
-        i=0
-        j=0
-        function education(){
-            document.getElementById('h3').innerHTML +=ssc[i][j]
-            j++
-            if(j>ssc[i].length){
-                j=0
-                //document.getElementById('h3').innerHTML=""
-                i++
-                if(i>=ssc.length){
-                    i=0
-                }
-                document.getElementById('h3').innerHTML="<br>"
-            }
-        }
-        setInterval(education,1000)
-    </script>
 
 </body>
 </html>

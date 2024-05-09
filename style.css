@@ -70,7 +70,7 @@ nav >ul >li >a:hover{
     padding-top: 160px;
     box-sizing: border-box;
     display: inline-block;
-    line-height: 10px;
+    line-height: 20px;
     float: left;
 }
 .name>h2{
@@ -78,11 +78,20 @@ nav >ul >li >a:hover{
     text-shadow: 10px 0px 10px black;
     font-size: 40px;
     padding-bottom: 30px;
+    letter-spacing: 6px;
 }
 .name>h3{
     font-family: 'Lugrasimo';
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 20px;
+    word-spacing: 5px;
+    /*text-decoration: underline;*/
+}
+.leter{
+    font-size: 30px;
+}
+.word{
+    text-decoration: underline;
 }
 .name>a>img{
     background-color:#ffffff ;
