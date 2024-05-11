@@ -9,21 +9,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+.ab{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold';
+    text-shadow: 10px 0px 10px black;
+    margin-top: 20px;
+    /*margin-bottom: auto;*/
+    box-sizing: border-box;
+}
 .about{
     background-color: #024950;
-    border: 2px solid;
-    width: 30%;
-    height: 390px;
+    
+    width: 50%;
+    height: 360px;
     float: right;
     margin: 40px;
-    text-align: center;
+    text-align: left;
     box-sizing: border-box;
     display: inline-block;
     line-height: 20px;
 }
 p{
+    color: white;
     font-size: 18px;
-    font-family:  Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    word-spacing: 5px;
 }
 .photo{
     box-sizing: border-box;
@@ -31,7 +44,7 @@ p{
     text-align: center;
     width: 40%;
     height: 400px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 15px;
     padding: 30px;
     display: inline-block;
