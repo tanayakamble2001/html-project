@@ -31,20 +31,40 @@
     </div>
     <div class="contact">
             <form>
-                <!--<label>Name:</label>-->
-                <input type="text" placeholder="Enter your Name"/>
+                <!--Name:-->
+                <input type="text" placeholder="Enter your Name" id="name"/>
                 <br><br>
-                <!--<label>Contact No. :</label>-->
-                <input type="tel" placeholder="Enter your Contact No."/>
+                <!--Contact No. :-->
+                <input type="tel" placeholder="Enter your Contact No." id="contact1"/>
                 <br><br>
-                <!--<label>Email Id:</label>-->
-                <input type="email" placeholder="Enter your Email Id"/>
+                <!--Email Id:-->
+                <input type="email" placeholder="Enter your Email Id" id="email"/>
                 <br><br>
                 <textarea placeholder="Enter your Message"></textarea>
                 <br><br>
-                <input type="submit" value="Send Message" class="btn"/>
+                <input type="submit" value="Send Message" class="btn" onclick="Data()"/>
             </form>
     </div>
     
+    <!--Java Script -->
+    <script>
+        function Data(){
+            name = document.getElementById('name').value
+            contact= document.getElementById('contact1').value
+            email= document.getElementById('email')
+            if(name == "" || name == null){
+                alert("Name Is Required...")
+            }
+            else if(contact.length != 10){
+                alert("Contact Is Required...Contect Length should be 10...")
+            }
+            else if(email == "" || email == null){
+                alert("Email Is Required...")
+            }
+            else{
+                alert("Message Send...")
+            }
+        }
+    </script>
 </body>
 </html>
